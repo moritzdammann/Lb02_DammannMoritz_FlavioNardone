@@ -1,1 +1,1 @@
-"# lb02_m307_Flavio_Nardone_und_Moritz_Dammann" 
+LB 02 M307 von Flavio Nardone und Moritz Dammann
