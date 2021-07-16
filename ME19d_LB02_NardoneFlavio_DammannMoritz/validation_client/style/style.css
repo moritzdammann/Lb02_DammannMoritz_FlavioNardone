@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+* {
+  background-color: #E9EDF0;
+}
+
+body {
+  margin: 200px 240px 200px 240px;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 50pt;
+}
+
+input.input {
+  background: #E9EDF0;
+  padding: 10px;
+  padding-left: 40px;
+  width: 440px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50px;
+  box-shadow: inset 2px 2px 5px #cbced1,
+    inset -5px -5px 10px white;
+  border: none;
+  outline: none;
+  margin-bottom: 40px;
+}
+
+#error_message {
+  margin-top: 80px;
+  padding: 0px;
+  font-family: Poppins;
+  font-size: 20pt;
+  font-weight: 600;
+  color: red;
+
+}
+
+.send {
+  background: #E9EDF0;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 8px #cbced1,
+    -5px -5px 8px white;
+  border: none;
+  outline: none;
+  opacity: 90%;
+  margin-top: 80px;
+}
+
+.send:hover {
+  background: #E9EDF0;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: inset 2px 2px 5px #cbced1,
+    inset -5px -5px 10px white;
+  border: none;
+  outline: none;
+  opacity: 90%;
+  margin-top: 80px;
+}
+
+::placeholder {
+  color: #CBCBCB;
+}
+
+
+.fileupload {
+  margin: 40px 0px 80px 0px;
+}
+
+
+#upload {
+  outline: none;
+  border: none;
+  background-color: #E9EDF0;
+  width: 440px;
+  height: 140px;
+  margin-top: 80px;
+  box-shadow: 5px 5px 8px #cbced1,
+    -5px -5px 8px white;
+  border-radius: 40px;
+  font-family: Poppins;
+  font-size: 20pt;
+  font-weight: 300;
+  color: black;
+  padding: 30px 25px 30px 25px;
+  text-align: center;
+}
+
+#upload:hover {
+  outline: none;
+  border: none;
+  background-color: #E9EDF0;
+  width: 440px;
+  height: 140px;
+  margin-top: 40px;
+  box-shadow: inset 2px 2px 5px #cbced1,
+    inset -5px -5px 10px white;
+  border-radius: 40px;
+  font-family: Poppins;
+  font-size: 20pt;
+  font-weight: 300;
+  color: black;
+  padding: 30px 25px 30px 25px;
+  text-align: center;
+
+}
+
+
+
+textarea {
+  width: 880px;
+  height: 300px;
+  box-shadow: inset 2px 2px 5px #cbced1,
+    inset -5px -5px 10px white;
+  border: none;
+  border-radius: 40px;
+  resize: none;
+  outline: none;
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 12pt;
+  overflow: hidden;
+  padding: 30px 25px 30px 25px;
+  margin-bottom: 40px;
+}
+
+select {
+  width: 480px;
+  height: 70px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 8px #cbced1,
+    -5px -5px 8px white;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 0px 50px 0px 20px;
+  margin-bottom: 40px;
+  font-family: Poppins;
+  font-size: 20pt;
+  font-weight: 300;
+  color: black;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+span {
+  font-family: Poppins;
+  font-weight: 300;
+  padding-right: 10px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+
+label span {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px 10px 10px;
+  border-radius: 31px;
+  transition: .25s ease;
+}
+
+
+label span:before {
+  content: "";
+  background-color: #E9EDF0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: .25s ease;
+  box-shadow: 5px 5px 8px #cbced1,
+    -5px -5px 8px white;
+  margin-right: 20px;
+}
+
+input[type="radio"]:checked+span:before {
+  box-shadow: inset 2px 2px 5px #cbced1,
+    inset -5px -5px 10px white;
+}
